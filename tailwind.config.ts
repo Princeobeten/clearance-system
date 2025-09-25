@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: '#152345',  // Foreground for cards, inputs
+        cta: '#2563eb',      // Call to action buttons
+        'main-bg': '#111827', // Main background
       },
     },
   },
