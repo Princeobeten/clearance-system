@@ -2,7 +2,7 @@
 // Run with: node scripts/seed.js
 
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 require('dotenv').config();
 
 // MongoDB connection
